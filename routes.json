@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/kid_games",
+    "page": "./pages/home",
+    "chunk": "main"
+  },
+  {
+    "path": "/kid_games/vibration",
+    "page": "./pages/vibration",
+    "chunk": "vibr"
+  },
+  {
+    "path": "/kid_games/accelerometer",
+    "page": "./pages/accelerometer",
+    "chunk": "acc"
+  },
+  {
+    "path": "/kid_games/error",
+    "page": "./pages/error",
+    "chunk": "main"
+  }
+]

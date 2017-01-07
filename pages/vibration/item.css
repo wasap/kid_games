@@ -1,0 +1,6 @@
+.root {
+    width: calc(50% - 60px);
+    height: calc(50vh - 60px);
+    display: inline-block;
+    margin: 30px;
+}
