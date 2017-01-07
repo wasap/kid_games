@@ -131,7 +131,7 @@ export default class Accelerometer extends React.Component{
         return (<div>Wave phone to hear sound
             <br/>
             <div>{JSON.stringify(this.state)}</div>
-            <ReactAudioPlayer src={`/sounds/${this.state.song}`} autoPlay onEnded={this.onSoundEnd}/>
+            <ReactAudioPlayer src={`/kid_games/sounds/${this.state.song}`} autoPlay onEnded={this.onSoundEnd}/>
         </div>)
     }
 }
